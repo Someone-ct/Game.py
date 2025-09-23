@@ -30,7 +30,7 @@ if Cchoice == Uchoice :
   print("You Chouse ==> " + choices[Uchoice])
   print ("The PC chose ==> " + choices[Cchoice])
   print('It is draw !!')
-elif Uchoice == Cchoice + 1 :
+elif Uchoice == Cchoice + 1  or (Uchoice == 1 and Cchoice == 3) :
   print("You chose ==> " + choices[Uchoice])
   print("The PC chose ==> " + choices[Cchoice])
   print(" You Won !! ")
